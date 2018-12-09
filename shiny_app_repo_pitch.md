@@ -13,10 +13,10 @@ Course Project
 
 This was built as part of a deliverable for the course Developing Data Products as part of the Coursera Data Science Specialization.
 
-The app developed for the first part of the assignment demo is avalilable at: <https://boris-13.shinyapps.io/shiny_app/> and  
-<http://rpubs.com/boris13/shiny_app/>
+The app developed for the first part of the assignment demo is avalilable at:
+<http://rpubs.com/boris13/shiny_app/>.
 
-Source code for ui.R and server.R files are available on the GitHub repo: <https://github.com/boris-13/shiny_app/>
+Source code for ui.R and server.R files are available on the GitHub repo: <https://github.com/boris-13/shiny_app/>.
 
 Embeded Code in the Slide
 ========================================================

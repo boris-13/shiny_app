@@ -91,8 +91,9 @@ shinyUI(fluidPage(
                 h4("This manual:"),
                 p("-	Third tab is the current application manual :))"),
                 p("Play with the app to discover insights like automatic transmission often leads to lower mileage, etc."),
-                p("Source code for ui.R and server.R files are available on the GitHub repo: ", a("https://github.com/boris-13/shiny_app", href="https://github.com/boris-13/shiny_app"))
-                ),
+                p("Source code for ui.R and server.R files are available on the GitHub repo: ", a("https://github.com/boris-13/shiny_app.", href="https://github.com/boris-13/shiny_app")),
+                p("The application itself is available on the RPubs.com site: ", a("http://rpubs.com/boris13/shiny_app.", href="http://rpubs.com/boris13/shiny_app"))
+                               ),
       id = "tabselected"
       )
       )
