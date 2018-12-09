@@ -2,8 +2,12 @@ Peer-graded Assignment: Course Project: Shiny Application and Reproducible Pitch
 ========================================================
 class: illustration
 author: Boris Romanciuc
-date: 9 December 2018
+date: 10 December 2018
 autosize: true
+- <https://boris-13.shinyapps.io/shiny_app/>
+- mtcars has 10 features for mpg
+- Minimal linear model: mpg ~ wt
+- Optimal linear model: mpg ~ wt + hp + cyl + am
 
 Course Project
 ========================================================
@@ -12,9 +16,6 @@ Course Project
 - The main objective of the project is to write a Shiny application
 
 This was built as part of a deliverable for the course Developing Data Products as part of the Coursera Data Science Specialization.
-
-The app developed for the first part of the assignment demo is avalilable at:
-<http://rpubs.com/boris13/shiny_app/>.
 
 Source code for ui.R and server.R files are available on the GitHub repo: <https://github.com/boris-13/shiny_app/>.
 

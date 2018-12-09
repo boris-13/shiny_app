@@ -10,9 +10,7 @@ shinyUI(fluidPage(
       hr(),
       sliderInput("sliderDisp", "Displacement in cu.in.:", 71.1, 472, value = 200, step=1),
       checkboxInput("showModel1", span("Show/Hide Model 1", style = "color:blue"), value=TRUE),
-      checkboxInput("showModel2", span("Show/Hide Model 2", style = "color:red" ), value=TRUE),
-      hr(),
-      img(src = "https://predict.mpg.football/static/media/PREDICT_Logo_blanc.92c0a8c.png", height = 70, width = 250)
+      checkboxInput("showModel2", span("Show/Hide Model 2", style = "color:red" ), value=TRUE)
       ),
 #===========================================================================    
       conditionalPanel(condition="input.tabselected==2",
@@ -32,9 +30,7 @@ shinyUI(fluidPage(
                      "Manual" = "one"
                    )),
       hr(),
-      checkboxInput("showDT", "Show/Hide mtcars table", value=TRUE),
-      hr(),
-      img(src = "https://predict.mpg.football/static/media/PREDICT_Logo_blanc.92c0a8c.png", height = 70, width = 250)
+      checkboxInput("showDT", "Show/Hide mtcars table", value=TRUE)
       ),
 #===========================================================================    
       conditionalPanel(condition="input.tabselected==3",
@@ -48,9 +44,7 @@ shinyUI(fluidPage(
         tags$li("MPG vs Weight"), 
         br(),
         tags$li("This manual")
-      ),
-       hr(),
-      img(src = "https://predict.mpg.football/static/media/PREDICT_Logo_blanc.92c0a8c.png", height = 70, width = 250)
+      )
       )
       ),
 #===========================================================================    
@@ -92,7 +86,7 @@ shinyUI(fluidPage(
                 p("-	Third tab is the current application manual :))"),
                 p("Play with the app to discover insights like automatic transmission often leads to lower mileage, etc."),
                 p("Source code for ui.R and server.R files are available on the GitHub repo: ", a("https://github.com/boris-13/shiny_app.", href="https://github.com/boris-13/shiny_app")),
-                p("The application itself is available on the RPubs.com site: ", a("http://rpubs.com/boris13/shiny_app.", href="http://rpubs.com/boris13/shiny_app"))
+                p("The Rstudio Presentation is available on the RPubs.com site: ", a("http://rpubs.com/boris13/shiny_app.", href="http://rpubs.com/boris13/shiny_app"))
                                ),
       id = "tabselected"
       )
